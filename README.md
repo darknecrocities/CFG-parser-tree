@@ -1,16 +1,55 @@
-# atf
+# 📘 CFG Parser Tree (Context-Free Grammar Tree Visualizer)
 
-A new Flutter project.
+A simple Flutter app that allows you to **build, parse, and visualize a derivation tree** from a given **Context-Free Grammar (CFG)**. This tool is especially helpful for students learning **Automata Theory**, **Compilers**, or **Formal Languages**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add non-terminals, terminals, and production rules
+- Input your own CFG and start symbol
+- Parse and build the **derivation tree**
+- View the result as a **text-based parse tree**
+- Clean interface built with **Flutter**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+> ✅ Coming soon: You can insert screenshots here showing the input form and output parse tree.
+
+---
+
+## 🧠 Sample Usage
+
+### Given CFG:
+
+```
+Non-Terminals: S, A
+Terminals: a, b
+Start Symbol: S
+
+Productions:
+S -> aA | b
+A -> b
+
+```
+
+### Resulting Parse Tree (for `S -> aA`, `A -> b`):
+
+```
+S
+├─ a
+└─ A
+└─ b
+
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/darknecrocities/CFG-parser-tree.git
+cd CFG-parser-tree

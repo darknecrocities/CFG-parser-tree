@@ -58,7 +58,7 @@ class _CFGHomePageState extends State<CFGHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("CFG Parser Tree")),
+      appBar: AppBar(title: const Text("CFG Parser Tree by Rhonzkie")),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(

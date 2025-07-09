@@ -13,7 +13,7 @@ class CFGApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'CFG Parser Tree',
+      title: 'CFG Parser Tree by rhonzkie',
       home: CFGHomePage(),
       debugShowCheckedModeBanner: false,
     );
